@@ -206,7 +206,7 @@ export default function AgeCalculator() {
             className="absolute right-0 top-1/2 transform -translate-y-1/2 md:right-1/2 md:translate-x-1/2 bg-purple-500 hover:bg-black transition-colors duration-300 rounded-full p-6 group"
           >
             <Image 
-              src="/icon-arrow.svg" 
+              src="/images/icon-arrow.svg" 
               alt="Calcular" 
               width={24}
               height={24}
