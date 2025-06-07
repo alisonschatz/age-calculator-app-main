@@ -198,33 +198,22 @@ export default function AgeCalculator() {
           </div>
         </div>
 
-        {/* Botão de Envio */}
-<div className="relative mb-12 mt-16">
-  <hr className="border-gray-200" />
-  <button
-    onClick={calculateAge}
-    className="absolute right-0 top-1/2 transform -translate-y-1/2 md:right-1/2 md:translate-x-1/2 bg-purple-500 hover:bg-black transition-colors duration-300 rounded-full p-6 group"
-  >
-    <svg 
-      width={24}
-      height={24}
-      viewBox="0 0 46 44" 
-      className="transform group-hover:scale-110 transition-transform duration-300"
-      fill="none"
-    >
-      <path 
-        d="M22.89 1C21.11.64 19.23.64 17.45 1a18.45 18.45 0 0 0-16.44 18.44c0 10.19 8.26 18.44 18.44 18.44s18.44-8.25 18.44-18.44A18.45 18.45 0 0 0 22.89 1Z" 
-        fill="white"
-      />
-      <path 
-        d="m15 15 15 15m0-15L15 30" 
-        stroke="#854DFF" 
-        strokeWidth={2}
-        strokeLinecap="round"
-      />
-    </svg>
-  </button>
-</div>
+{/* Botão de Envio */}
+        <div className="relative mb-12 mt-16">
+          <hr className="border-gray-200" />
+          <button
+            onClick={calculateAge}
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 md:right-1/2 md:translate-x-1/2 bg-purple-500 hover:bg-black transition-colors duration-300 rounded-full p-6 group"
+          >
+            <img 
+            src="/icon-arrow.svg" 
+             alt="Calcular" 
+             width={24}
+             height={24}
+            className="transform group-hover:scale-110 transition-transform duration-300 filter brightness-0 invert"
+            />
+          </button>
+        </div>
 
         {/* Resultados */}
         <div className="space-y-2">
